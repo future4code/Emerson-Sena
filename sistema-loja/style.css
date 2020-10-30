@@ -1,0 +1,31 @@
+.menu {
+    background: 50px;
+    color: blue;
+    background-color: yellow;
+}
+
+#Nome {
+    background: 50px;
+    background-color: blue;
+    color: white;
+    font-family: Impact;
+    margin-top: 1px;
+}
+
+#Apresentacao {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: auto;
+}
+
+#imagem {
+    width: 50%;
+}
+
+.redes {
+    width: 10%;
+
+}
+
+.Imagem {
+    width: 50%;
+}
