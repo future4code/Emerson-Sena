@@ -96,14 +96,16 @@ div img {
 
 div:nth-child(2),
 div:last-child {
-    text-align: center;
+text-align: center;
 }
 
 table {
-    width: 60%;
+    text-align: center;
+    width: 100%;
 }
 
 td button {
+
     background-color: #fadf63;
     width: 150px;
     height: 30px;
