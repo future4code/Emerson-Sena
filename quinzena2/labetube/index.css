@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color:white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium';
+    background-color: orangered;
+    height: 50px;
+}
+
+input {
+    display: flex;
+    font-family: 'Franklin Gothic Medium';
+    border: none;
+    margin-right: 20px;
+    width: 150px;
+}
+
+main {
+    display: grid;
+    justify-items: center;
+    padding-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-grow: 1;
+}
+
+video {
+    display: flex;
+    border: green 1px solid;
+    padding-bottom: 80px;
+    margin: 5px;
+    height: 150px;
+}
+
+div {
+    border: none;
+}
+
+footer {
+    display: flex;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    height: 80px;
+    background-color: rgb(75, 71, 70);
+}
