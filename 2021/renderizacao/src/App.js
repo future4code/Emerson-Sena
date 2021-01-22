@@ -25,11 +25,7 @@ class App extends React.Component {
         texto: 'Tarefa',
         completa: false
       },
-    {
-      id: Date.now(),
-      texto: 'Tarefa 2',
-      completa: true
-    }],
+    ],
       inputValue: '',
       filtro: ''
     }
@@ -43,9 +39,13 @@ class App extends React.Component {
   componentDidMount() {
     const pegarTarefa = localStorage.getItem("tarefa")
 
-    const tarefaObjeto = JSON.parse(pegarTarefa)
+    if(pegarTarefa !== null){
+      const tarefaObjeto = JSON.parse(pegarTarefa)
 
     this.setState({ tarefas: tarefaObjeto })
+    }
+
+    
   };
 
   onChangeInput = (event) => {
